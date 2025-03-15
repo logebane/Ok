@@ -1,0 +1,95 @@
+body {
+  background-image: url("../Images/background.webp");
+}
+p {
+  position: absolute;
+  color: white;
+  font-size: 50px;
+}
+table {
+  width: 90%;
+  border: 2px solid;
+  padding: 3px;
+  text-align: center;
+  color: rgba(255, 167, 66, 0.959);
+}
+td,
+th {
+  border: 2px solid;
+  font-size: 80px;
+  height: 100px;
+  color: rgba(255, 167, 66, 0.959);
+}
+dialog {
+  border-width: 1.4px;
+  border-radius: 4px;
+  background-image: url("../Images/background3.jpg");
+}
+.holder img {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+  position: relative;
+  border-radius: 3px;
+}
+.holder .month {
+  margin-top: -104px;
+  margin-left: 670px;
+  position: inherit;
+  font-size: 75px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgba(255, 167, 66, 0.959);
+}
+.mainDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+.calendar {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(238, 129, 5);
+}
+.holder {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 10px;
+  justify-items: center;
+  background-color: rgba(149, 228, 252, 0.452);
+  border-radius: 5px;
+
+  height: 1000px;
+  width: 1830px;
+  padding: 10px;
+}
+.holder div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  height: 270px;
+  width: 430px;
+}
+.holder .dates {
+  height: 900px;
+  width: 1800px;
+  pointer-events: none;
+}
+.holder button {
+  border: none;
+  background: none;
+  padding: 0px;
+}
+.holder .close {
+  position: inherit;
+  margin-top: -17px;
+  margin-left: -4px;
+  cursor: pointer;
+  font-size: 40px;
+}

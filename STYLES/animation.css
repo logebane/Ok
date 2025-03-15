@@ -1,0 +1,18 @@
+.animation1 {
+  background-color: rgb(0, 113, 243);
+  border-radius: 22px;
+  border: none;
+  height: 270px;
+  width: 430px;
+  cursor: pointer;
+  color: white;
+  border-style: solid;
+  font-weight: bold;
+  font-size: 15px;
+  transition: box-shadow 0.5s;
+  margin-left: 5px;
+  border: 0;
+}
+.animation1:hover {
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3), 0 -4px 20px 0 rgba(0, 0, 0, 0.19);
+}
